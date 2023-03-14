@@ -12,6 +12,7 @@ public class HealthManager : MonoBehaviour
     void Start()
     {
         hitPoints = maxHitPoints;
+        GameManager.ResetGame();
     }
 
     void Hit(float rawDamage)

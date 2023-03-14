@@ -75,6 +75,7 @@ public class MenuControls : MonoBehaviour
     {
         Cursor.visible = false;
         SceneManager.LoadScene(playScene);
+
     }
 
     public void QuitGame()
